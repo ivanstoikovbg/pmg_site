@@ -1,0 +1,58 @@
+body {
+
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+
+section {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0.5rem;
+    }
+    .section-title {
+        font-size: 1.5rem;
+    }
+    section {
+        padding: 1rem;
+    }
+}
+
+section p:first-of-type {
+    font-weight: bold;
+}
+
+section ul li::marker {
+    color: #444;
+    font-weight: bold;
+}
